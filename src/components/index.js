@@ -1,2 +1,12 @@
 export { default as About } from './About';
 export { default as Footer } from './Footer';
+export { default as Hero } from './Hero';
+export { default as Navbar } from './Navbar';
+export { default as PageLink } from './PageLink';
+export { default as PageLinks } from './PageLinks';
+export { default as Service } from './Service';
+export { default as Services } from './Services';
+export { default as SocialLink } from './SocialLink';
+export { default as Title } from './Title';
+export { default as Tour } from './Tour';
+export { default as Tours } from './Tours';
