@@ -1,4 +1,14 @@
-const SocialLink = () => {
-  return <div>SocialLink</div>;
+const SocialLink = ({ itemClass, href, icon }) => {
+  return (
+    <li>
+      <a
+        href={href}
+        target='_blank'
+        className={itemClass}
+        rel='noopener noreferrer'>
+        <i className={icon}></i>
+      </a>
+    </li>
+  );
 };
 export default SocialLink;
