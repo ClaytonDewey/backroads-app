@@ -1,3 +1,4 @@
+import { Title } from '.';
 import tourImg1 from '../images/tour-1.jpeg';
 import tourImg2 from '../images/tour-2.jpeg';
 import tourImg3 from '../images/tour-3.jpeg';
@@ -6,12 +7,7 @@ import tourImg4 from '../images/tour-4.jpeg';
 const Tours = () => {
   return (
     <section className='section' id='tours'>
-      <div className='section-title'>
-        <h2>
-          featured <span>tours</span>
-        </h2>
-      </div>
-
+      <Title title='featured' subtitle='tours' />
       <div className='section-center featured-center'>
         <article className='tour-card'>
           <div className='tour-img-container'>
