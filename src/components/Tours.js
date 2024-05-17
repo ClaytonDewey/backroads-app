@@ -1,3 +1,8 @@
+import tourImg1 from '../images/tour-1.jpeg';
+import tourImg2 from '../images/tour-2.jpeg';
+import tourImg3 from '../images/tour-3.jpeg';
+import tourImg4 from '../images/tour-4.jpeg';
+
 const Tours = () => {
   return (
     <section className='section' id='tours'>
@@ -10,7 +15,7 @@ const Tours = () => {
       <div className='section-center featured-center'>
         <article className='tour-card'>
           <div className='tour-img-container'>
-            <img src='./images/tour-1.jpeg' className='tour-img' alt='' />
+            <img src={tourImg1} className='tour-img' alt='' />
             <p className='tour-date'>august 26th, 2020</p>
           </div>
           <div className='tour-info'>
@@ -37,7 +42,7 @@ const Tours = () => {
 
         <article className='tour-card'>
           <div className='tour-img-container'>
-            <img src='./images/tour-2.jpeg' className='tour-img' alt='' />
+            <img src={tourImg2} className='tour-img' alt='' />
             <p className='tour-date'>october 1th, 2020</p>
           </div>
           <div className='tour-info'>
@@ -62,7 +67,7 @@ const Tours = () => {
 
         <article className='tour-card'>
           <div className='tour-img-container'>
-            <img src='./images/tour-3.jpeg' className='tour-img' alt='' />
+            <img src={tourImg3} className='tour-img' alt='' />
             <p className='tour-date'>september 15th, 2020</p>
           </div>
           <div className='tour-info'>
@@ -87,7 +92,7 @@ const Tours = () => {
 
         <article className='tour-card'>
           <div className='tour-img-container'>
-            <img src='./images/tour-4.jpeg' className='tour-img' alt='' />
+            <img src={tourImg4} className='tour-img' alt='' />
             <p className='tour-date'>december 5th, 2019</p>
           </div>
           <div className='tour-info'>
